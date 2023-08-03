@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    cursor: pointer;
+}
+
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 54, 6);
+    color: aliceblue;
+    padding-top: 14px;
+}
+
+/* Adjust the appearance of the button icon if necessary */
+mat-icon {
+    font-size: 24px;
+}
+.img{
+    img{
+        height: 50px;
+    }
+}

@@ -1,0 +1,66 @@
+.challenge{
+    
+        background: linear-gradient(to top, #000, rgba(255, 255, 255, 0.5));}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+        width: auto;
+    
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+}
+        .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+
+    img {
+        flex: 1;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        /* Set the aspect ratio to 1:1 for square images */
+        max-width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    h2 {
+        color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    /* Apply a scaling effect on hover */
+    // box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Change the box shadow on hover */
+    cursor: grabbing;
+
+
+}
+.challenge-one{
+    padding-top: 40px;
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    padding-top: 60px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.challenge-two{
+color: wheat;
+    text-align: center;
+font-size: larger;
+padding-top: 40px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
