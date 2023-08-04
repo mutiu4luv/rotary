@@ -1,5 +1,5 @@
 .challenge{
-    
+    padding-bottom: 40px;
         background: linear-gradient(to top, #000, rgba(255, 255, 255, 0.5));}
 .overlay{
     background-color: rgba(0, 0, 0, 0.5);
@@ -41,6 +41,7 @@
         margin-right: auto;
         color: aqua;
     }
+   
 }
 
 .hover:hover {
@@ -72,4 +73,24 @@ padding-top: 40px;
 width: 70%;
 margin-left: auto;
 margin-right: auto;
+}
+ .drop {
+     margin-bottom: -50px;
+     img{
+            margin-top: 120px;
+     }
+ }
+
+
+
+@media (max-height:800px) {
+
+.drop {
+        margin-bottom: -10px;
+
+        img {
+            margin-top: 120px;
+        }
+    }
+
 }
