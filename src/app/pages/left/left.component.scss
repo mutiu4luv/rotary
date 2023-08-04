@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    // padding-top: 50px;
-    // padding-bottom: 50px;
+
+    padding-bottom: 50px;
     .first-div{
         width: 50%;
-        background-color: blue;
-        height: auto;
+        background-color: aliceblue;
+        // background: linear-gradient(to bottom, #fff, rgba(255, 255, 255, 0.5));        height: auto;
             padding-top: 50px;
             padding-bottom: 50px;
     }
